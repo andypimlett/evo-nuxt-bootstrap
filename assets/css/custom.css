@@ -1,0 +1,39 @@
+.rte {
+  > p:first-of-type {
+    @apply text-2xl;
+    @apply text-gray-900;
+  }
+
+  p {
+    font-family: 'Mukta', 'Helvetica', 'Arial', 'sans-serif';
+    @apply mb-5;
+    @apply text-lg;
+    @apply font-thin;
+    @apply text-gray-800;
+  }
+
+  ul li {
+    list-style-type: circle;
+
+    p {
+      @apply text-lg;
+      @apply font-thin;
+      @apply text-gray-800;
+    }
+  }
+
+  @screen md {
+    > p:first-of-type {
+      @apply text-2xl;
+    }
+    p {
+      @apply text-xl;
+      @apply mb-10;
+    }
+    ul li p {
+      @apply text-xl;
+      @apply font-thin;
+      @apply text-gray-800;
+    }
+  }
+}
