@@ -1,5 +1,9 @@
 module.exports = {
   root: true,
+  env: {
+    browser: true,
+    node: true
+  },
   parserOptions: {
     parser: 'babel-eslint'
   },
@@ -10,10 +14,6 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended'
   ],
-  env: {
-    browser: true,
-    node: true
-  },
   plugins: ['prettier'],
   // add your custom rules here
   rules: {}
