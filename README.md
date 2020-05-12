@@ -6,7 +6,9 @@
 Contentful requires API keys for accessing the demo content. Create a .env file in the root of the cloned repo and add:
 
 `BASE_URL=http://localhost:3000`
+
 `NUXT_ENV_CONTENTFUL_SPACE=zvbcdzdlhq84`
+
 `NUXT_ENV_CONTENTFUL_ACCESS_TOKEN=LN5wNsUfk9V1BEb-uyaH2NIbtrU1vmMOuSdTWmv8uTo`
 
 N.B - .env should never be commited; instead pass env keys via CI deployment pipe.
