@@ -1,4 +1,4 @@
-# evo-nuxt-bootstrap
+# nuxt-bootstrap
 
 > Contentful, Tailwind & Nuxt (VueJS) Accelerator
 
